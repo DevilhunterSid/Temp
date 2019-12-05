@@ -1,0 +1,9 @@
+Chef Server -
+
+wget https://packages.chef.io/files/stable/chef-server/13.0.17/ubuntu/18.04/chef-server-core_13.0.17-1_amd64.deb
+
+sudo dpkg -i chef-server-core_*.deb
+
+rm chef-server-core_*.deb
+
+sudo chef-server-ctl reconfigure
